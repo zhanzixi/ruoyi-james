@@ -133,9 +133,9 @@ insert into sys_menu(parent_id, name, path, type, icon)
 values (0, '主页', '/', 2, 'el-icon-s-home'),
        (0, '系统管理', '/system', 1, 'el-icon-setting'),
        (2, '用户管理', '/system/user', 2, 'el-icon-user-solid'),
-       (2, '角色管理', '/system/role', 2, 'el-icon-s-check'),
+       (2, '角色管理', '/system/role', 2, 'et-member'),
        (2, '菜单管理', '/system/menu', 2, 'el-icon-menu'),
-       (2, '部门管理', '/system/dept', 2, 'el-icon-menu'),
+       (2, '部门管理', '/system/dept', 2, 'et-organization'),
        (2, '岗位管理', '/system/post', 2, 'el-icon-postcard');
 select *
 from sys_menu
